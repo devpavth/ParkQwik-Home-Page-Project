@@ -1,0 +1,36 @@
+.your-cars-center {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 11px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.cars-center-header {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+  
+.section-container {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.cars-center-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+  
+.cars-center-section img {
+    margin-bottom: 10px;
+}
+  
+.cars-center-section p {
+    font-size: 10px;
+}
+

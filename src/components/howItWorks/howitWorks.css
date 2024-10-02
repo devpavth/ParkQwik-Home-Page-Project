@@ -1,0 +1,39 @@
+.how-it-works-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.how-it-works-heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.how-it-works-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    background: linear-gradient(180deg, #9EFFE1 0%, #E9FFF8 100%);
+}
+
+/* .how-it-works-image img {
+    height: auto;
+} */
+
+.how-it-works-play{
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+}
+
+.how-it-works-play img{
+    width: 25px;
+    height: auto;
+    margin-left: -60px;
+}

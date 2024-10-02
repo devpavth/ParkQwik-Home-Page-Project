@@ -1,0 +1,53 @@
+.recharge-bill-payments-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 11px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.recharge-bill-payments-heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #333;
+}
+  
+.recharge-bill-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns grid */
+    gap: 6px; /* Gap between grid items */
+}
+  
+.payment-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    /* background-color: #f0f4f8; */
+  }
+  
+.payment-option img {
+    margin-bottom: 8px;
+    /* background-color: #F0FFFA; */
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    background-color: #F0FFFA;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    box-shadow: 1px 2px 2px 0px #6868681A;
+}
+  
+.payment-option p {
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+}
+  

@@ -1,0 +1,20 @@
+.dots-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+  
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 4px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}
+  
+.dot.active {
+    background-color: #1A9E75; /* You can adjust the active color to match your design */
+}
+  
