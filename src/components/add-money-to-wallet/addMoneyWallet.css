@@ -1,0 +1,44 @@
+.add-money-wallet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(26, 158, 117, 0.8) 0%, rgba(26, 158, 117, 0.9) 19.79%, rgba(26, 158, 117, 0.95) 29.69%, #1A9E75 39.58%, #A6A765 100%);
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 9px;
+}
+
+.wallet-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.wallet-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.wallet-subtitle {
+    font-size: 0.9em;
+    color: #d5f5e3;
+}
+
+.add-money-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #6fcf97;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wallet-image img {
+    width: 80px;
+    height: auto;
+}
