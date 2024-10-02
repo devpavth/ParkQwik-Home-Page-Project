@@ -1,0 +1,101 @@
+.first-add {
+    padding: 20px;
+    height: 156px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    background: linear-gradient(149.13deg, #1A9E75 11.49%, #27CD99 92.3%);
+}
+
+
+.fastag-card-title {
+    font-size: 15px;
+    /* margin-bottom: 10px; */
+    color: #FBFF29;
+    font-weight: 500;
+}
+  
+.fastag-card-subtitle {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+  
+.fastag-card-text {
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+  
+.fastag-card-button-container {
+    display: flex;
+    justify-content: space-between; /* Adjust width as needed */
+    margin: 0 auto;
+}
+  
+.fastag-card-button {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    /* height: 29px;
+    width: 99px; */
+    padding: 2px 11px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; 
+}
+
+.FastagCard-image{
+    height: 18px;
+    margin-left: 18px;
+    margin-top: 4px;
+}
+  
+/* .fastag-card-button-container img {
+    margin-right: 0px;
+    width: 75px;
+    height: 25px;
+    margin-top: 3px;
+} */
+
+.second-ad{
+    padding: 18px;
+    margin: 20px 13px;
+    border-radius: 20px;
+    background: linear-gradient(149.13deg, #1B53E4 11.49%, #268AFF 92.3%);
+}
+
+.reserve-button{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 7px 18px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+}
+
+.reserve-fastag-card-title{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing content */
+    text-overflow: ellipsis; /* Add ellipsis for truncated text */
+}
+
+.fastag-card-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
